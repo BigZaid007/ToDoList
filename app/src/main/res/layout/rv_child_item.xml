@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBackground"
+
+
+
+
+    >
+
+
+
+
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/carditem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="2dp"
+    android:padding="4dp"
+
+    >
+
+    <CheckBox
+        android:id="@+id/cb_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+
+        >
+    </CheckBox>
+
+
+
+
+
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+
+            >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <View
+                android:id="@+id/textline"
+                android:layout_width="400dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="40dp"
+                android:background="@color/colorLine"
+                android:visibility="invisible"
+
+
+
+
+                />
+
+            <ImageView
+
+
+                android:id="@+id/delete"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:src="@drawable/ic_delete"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="4dp"
+
+
+                >
+
+            </ImageView>
+
+            <ImageView
+
+                android:id="@+id/edit"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:src="@drawable/ic_edit"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="4dp"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+</RelativeLayout>

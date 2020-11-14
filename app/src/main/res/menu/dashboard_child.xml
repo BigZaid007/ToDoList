@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menu_edit"
+        android:title="@string/edit"
+        android:icon="@drawable/ic_edit"
+
+
+
+        > </item>
+    <item
+        android:id="@+id/menu_delete"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_delete"
+        > </item>
+    <item
+        android:id="@+id/menu_mark_as_completed"
+        android:title="@string/mark_as_complete"
+        android:icon="@drawable/ic_check"
+        > </item>
+    <item
+        android:id="@+id/menu_reset"
+        android:title="@string/reset"
+        android:icon="@drawable/ic_redo"
+        > </item>
+
+</menu>

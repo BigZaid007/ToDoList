@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/starting"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/todo" />
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/starting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/be_more_productive"
+        android:textColor="#000"
+
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+
+        />
+
+    <TextView
+        android:id="@+id/downdes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/des"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/organize_your_thoughts_and_plan_your_day"
+        android:textColor="#121212"
+
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:paddingTop="8dp"
+
+        />
+
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/btnGo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:text="@string/get_started"
+        android:textColor="@color/gray"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="3000"
+        app:sub_btn_line_color="@color/green"
+        app:sub_btn_ripple_color="@color/green"
+        app:sub_btn_tick_color="@color/white" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+

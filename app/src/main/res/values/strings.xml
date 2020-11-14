@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ToDo List</string>
+
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="mark_as_complete">Mark as completed</string>
+    <string name="reset">Reset</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="notification">Notification</string>
+    <string name="general">General</string>
+    <string name="brightness">Brightness</string>
+    <string name="sound">Sound</string>
+    <string name="display">Display</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="font_size">Font Size</string>
+    <string name="normal">Normal</string>
+    <string name="large">Large</string>
+    <string name="be_more_productive">Be More Productive</string>
+    <string name="organize_your_thoughts_and_plan_your_day">Organize Your Thoughts And Plan Your Day</string>
+    <string name="get_started">Get Started</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+</resources>
